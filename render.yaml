@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: ai-ecc-compliance-platform
+    runtime: python
+    plan: free
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    envVars:
+      - key: AI_AUDITOR_API_KEY
+        sync: false
+        # Leave unset to use the built-in mock (keyword-based) auditor.
+        # Only set this if you have implemented and want to use a real
+        # LLM backend in app/services/ai_auditor.py::LLMAuditor.

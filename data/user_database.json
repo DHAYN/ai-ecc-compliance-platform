@@ -1,0 +1,26 @@
+{
+  "note": "Synthetic sample employee records for demo purposes only. No real personnel data.",
+  "employees": [
+    {
+      "employee_id": "EMP001",
+      "name": "Sara Al-Otaibi",
+      "department": "Information Technology",
+      "status": "Active",
+      "access_revoked": false
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "Faisal Al-Harbi",
+      "department": "Finance",
+      "status": "Active",
+      "access_revoked": false
+    },
+    {
+      "employee_id": "EMP003",
+      "name": "Noura Al-Qahtani",
+      "department": "Human Resources",
+      "status": "Terminated",
+      "access_revoked": false
+    }
+  ]
+}

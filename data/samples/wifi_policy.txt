@@ -1,0 +1,29 @@
+FAKE CORP — WIRELESS NETWORK ACCESS POLICY
+(Synthetic sample document — for PoC/demo purposes only. Not a real organizational policy.)
+
+1. Purpose
+This policy defines the minimum security requirements for wireless network
+access within Fake Corp offices.
+
+2. Scope
+Applies to all employees, contractors, and visitors connecting to any
+Fake Corp wireless access point.
+
+3. Requirements
+3.1 All corporate wireless access points must use WPA2 encryption at a
+    minimum. Open or unencrypted networks are not permitted.
+3.2 Visitors and third parties must connect only to the designated
+    Guest Network, which is logically separated from the internal
+    corporate network.
+3.3 Wireless access point administrative credentials must not be shared
+    outside the IT department.
+3.4 New access points must be approved by the IT Security team before
+    being deployed.
+
+4. Exceptions
+Any exception to this policy must be requested in writing and approved
+by the IT Security lead.
+
+5. Enforcement
+Violation of this policy may result in disciplinary action up to and
+including termination of employment or contract.

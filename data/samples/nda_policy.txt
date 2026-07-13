@@ -1,0 +1,24 @@
+FAKE CORP — EMPLOYEE NON-DISCLOSURE AGREEMENT (NDA)
+(Synthetic sample document — for PoC/demo purposes only. Not a real organizational policy.)
+
+1. Confidentiality Obligation
+The employee agrees to maintain the confidentiality of all proprietary,
+technical, financial, and customer information disclosed during the course
+of their employment with Fake Corp, and shall not disclose such information
+to any third party without prior written consent.
+
+2. Duration
+This confidentiality obligation survives the term of employment and
+continues indefinitely after separation, regardless of the reason for
+separation.
+
+3. Return of Property
+Upon separation from the company, the employee agrees to return all
+company property, including laptops, badges, and physical or digital
+documents containing confidential information.
+
+4. Acknowledgement
+By signing below, the employee acknowledges they have read and understood
+the terms of this agreement.
+
+Employee Signature: ____________________   Date: ____________________

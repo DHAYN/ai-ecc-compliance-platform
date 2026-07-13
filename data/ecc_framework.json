@@ -1,0 +1,107 @@
+{
+  "framework": "NCA Essential Cybersecurity Controls (ECC-1:2018)",
+  "note": "SYNTHETIC / SIMPLIFIED representation of the ECC control structure, built for portfolio/demo purposes only. This is NOT verbatim NCA text and must not be treated as an authoritative compliance reference.",
+  "controls": [
+    {
+      "control_id": "1-1",
+      "domain": "1 - Cybersecurity Governance",
+      "subdomain": "Cybersecurity Strategy",
+      "title": "Cybersecurity Strategy",
+      "description": "The organization must define, approve, and periodically review a cybersecurity strategy aligned with its business objectives.",
+      "required_elements": [
+        {
+          "keyword": "strategy",
+          "description": "Policy does not reference an approved cybersecurity strategy.",
+          "recommendation": "Add a section stating the organization has an approved, documented cybersecurity strategy aligned with business objectives."
+        },
+        {
+          "keyword": "review",
+          "description": "Policy does not mention periodic review of the strategy/policy.",
+          "recommendation": "Define a periodic review cadence (e.g., annually) for the cybersecurity strategy and this policy."
+        },
+        {
+          "keyword": "approved",
+          "description": "Policy does not indicate formal approval by management/leadership.",
+          "recommendation": "State who approved the policy (e.g., CISO, executive management) and the approval date."
+        }
+      ]
+    },
+    {
+      "control_id": "1-9",
+      "domain": "1 - Cybersecurity Governance",
+      "subdomain": "Human Resources Cybersecurity",
+      "title": "Human Resources Cybersecurity",
+      "description": "Cybersecurity requirements must be applied before, during, and upon termination or change of employment.",
+      "required_elements": [
+        {
+          "keyword": "confidentiality",
+          "description": "Policy does not include a confidentiality/non-disclosure obligation.",
+          "recommendation": "Include an explicit confidentiality obligation covering organizational and customer data."
+        },
+        {
+          "keyword": "background check",
+          "description": "Policy does not mention pre-employment background screening.",
+          "recommendation": "Require background verification checks prior to granting system access to new hires."
+        },
+        {
+          "keyword": "security awareness",
+          "description": "Policy does not require security awareness training.",
+          "recommendation": "Mandate periodic cybersecurity awareness training for all personnel."
+        }
+      ],
+      "subcontrols": [
+        {
+          "control_id": "1-9-5",
+          "title": "Termination / Change of Employment",
+          "description": "Access to systems, applications, and assets must be revoked immediately upon termination or change of employment, and organizational assets must be returned.",
+          "required_elements": [
+            {
+              "keyword": "revoke",
+              "description": "Policy does not require access revocation upon termination.",
+              "recommendation": "Add a requirement to revoke all system and physical access immediately upon employee termination."
+            },
+            {
+              "keyword": "immediately",
+              "description": "Policy does not specify an immediate/same-day timeframe for offboarding actions.",
+              "recommendation": "Specify that offboarding actions (access revocation, asset return) occur immediately, not on a delayed schedule."
+            },
+            {
+              "keyword": "return",
+              "description": "Policy does not require return of organizational assets upon termination.",
+              "recommendation": "Require employees to return all organizational assets (badges, devices, documents) upon termination."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "control_id": "2-3",
+      "domain": "2 - Cybersecurity Defense",
+      "subdomain": "Information System and Information Processing Facilities Protection",
+      "title": "Wireless & Network Access Security",
+      "description": "Wireless networks must be secured with strong encryption, network segmentation, and monitoring.",
+      "required_elements": [
+        {
+          "keyword": "wpa2",
+          "description": "Policy does not specify a strong wireless encryption standard (e.g., WPA2/WPA3).",
+          "recommendation": "Require WPA2 or stronger encryption for all wireless access points."
+        },
+        {
+          "keyword": "guest network",
+          "description": "Policy does not mention a segmented guest network.",
+          "recommendation": "Require guest Wi-Fi to be segmented onto a separate network from internal corporate systems."
+        },
+        {
+          "keyword": "password rotation",
+          "description": "Policy does not require periodic Wi-Fi password rotation.",
+          "recommendation": "Require periodic rotation of wireless network passwords (e.g., every 90 days)."
+        },
+        {
+          "keyword": "monitoring",
+          "description": "Policy does not mention monitoring of wireless network access.",
+          "recommendation": "Require logging and monitoring of devices connecting to wireless networks."
+        }
+      ]
+    }
+  ]
+}
